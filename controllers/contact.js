@@ -33,8 +33,8 @@ exports.contactPost = function(req, res) {
   }
 
   var mailOptions = {
-    from: req.body.name + ' ' + '<'+ req.body.email + '>',
-    to: 'your@email.com',
+    from: req.body.name + ' ' + '<' + req.body.email + '>',
+    to: 'jbvance@gmail.com',
     subject: '✔ Contact Form | Mega Boilerplate',
     text: req.body.message
   };
